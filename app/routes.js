@@ -12,7 +12,7 @@ const {
 
 const {
     handleNoUserData
-} = require('./middleware')
+} = require('./middleware').default
 
 
 router.get('/user/:id', (req, res) => {
